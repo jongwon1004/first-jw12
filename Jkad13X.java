@@ -1,3 +1,4 @@
+package Jkad;
 import java.util.Scanner;
 
 public class Jkad13X {
@@ -33,17 +34,17 @@ public class Jkad13X {
         
         for( int a = 1; a <= i; a++){
 
-			if(ifFizz4(a)== true) {
+			if(ifFizz4(a)) {
                 System.out.println(str3);
-            }else   if(ifFizz2(a) == true && ifFizz3(a) == true){
+            }else   if(ifFizz2(a) && ifFizz3(a)){
                 System.out.println(str3);
-            }else   if(ifFizz(a)== true) {
+            }else   if(ifFizz(a)) {
                 System.out.println(str1);
-            }else  if(ifFizz3(a)== true) {
+            }else  if(ifFizz3(a)) {
                 System.out.println(str2);
-            }else   if(ifFizz2(a)== true) {
+            }else   if(ifFizz2(a)) {
                 System.out.println(str1);
-            }else   if(ifFizz5(a)== true){
+            }else   if(ifFizz5(a)){
                 System.out.println(str1);
             }else   System.out.println(a);
             

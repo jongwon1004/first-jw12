@@ -1,3 +1,4 @@
+package Jkad;
 import java.util.Scanner;
 
 public class Jkad13X2 {
